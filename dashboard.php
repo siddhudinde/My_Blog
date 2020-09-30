@@ -221,7 +221,7 @@
                     </div> -->
                     <div class="col-lg-12">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/instagram.png" alt="" />
+                           <a href="assets/instagram.png"><img class="mx-auto rounded-circle" src="assets/instagram.png" alt="" /></a> 
                             <h4>Siddhu Dinde</h4>
                             <p class="text-muted">Web Developer</p>
                             <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
