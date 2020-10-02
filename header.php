@@ -66,6 +66,8 @@ session_start();
       <a class="collapse-item" href="create_blog.php">Create Blog</a>
       <a class="collapse-item" href="view_blog.php">View Blog</a>
       <a class="collapse-item" href="sid_blog.php">Gamming blog</a>
+      <a class="collapse-item" href="food_blog.php">Food blog</a>
+
     </div>
   </div>
 </li>

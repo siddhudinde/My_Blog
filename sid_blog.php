@@ -140,6 +140,22 @@
     </div>
     <br>
   </main>
+
+  <footer>
+
+  <div class="card bg-dark text-white">
+    <img src="Assets/background.jpg" class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <h5 class="card-title text-center text-success size">GET THE NEWS</h5>
+      <p class="card-text text-center text-white font small">TO GET PART IN GAMMING HOUSE</p>
+      <br>
+      
+      <br>
+  
+      
+    </div>
+  </div>
+</footer>
        
  
 
