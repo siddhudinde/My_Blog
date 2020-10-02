@@ -65,12 +65,12 @@
                     <td><?php echo $file; ?></td>
                     <td>
                     <!-- Button trigger modal -->
-<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal<?php echo $id ?>">
+<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#updateModal<?php echo $id ?>">
   Update
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal<?php echo $id ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="updateModal<?php echo $id ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -81,12 +81,12 @@
       </div>
       <div class="modal-body text-dark">
 
-      <div class="form-grup">
+      <div class="form-group">
     <form action="" method ="POST">
 
         <label for="name">Category name</label>
         <input type="text" value="<?php echo $cat_name; ?>" class="form-control" name="U_name" >
-        <input type="hidden" value="<?php echo $id; ?>" class="form-control" name="U_id">
+        <input type="hidden" value="<?php echo $i; ?>" class="form-control" name="U_id">
         </div>
         <div class="form-group">
             <label for="">Blog Title</label>
@@ -98,11 +98,11 @@
         </div>
         <div class="form-group">
             <label for="">Blog Date</label>
-            <input type="date" class="form-control" value="<?php echo $date; ?>" name="U_date">
+            <input type="text" class="form-control" value="<?php echo $date; ?>" name="U_date">
         </div>
         <div class="form-group">
             <label for="">File</label>
-            <input type="file" class="form-control" value="<?php echo $file; ?>" name="U_file">
+            <input type="text" class="form-control" value="<?php echo $file; ?>" name="U_file">
         </div>
       </div>
       <div class="modal-footer">
@@ -134,7 +134,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" data-dismiss="modal">No</button>
-        <button type="button" class="btn btn-danger" name="delete_btn">Yes</button>
+        <button type="submit" class="btn btn-danger" name="delete_btn">Yes</button>
       </div>
     </div>
   </div>
