@@ -39,7 +39,7 @@
     </tfoot>
     <tbody>
         <?php
-        $read_blog="SELECT * FROM blog";
+        $read_blog="SELECT * FROM blog " ;
         $result_read_blog= mysqli_query($connection,$read_blog);
 
         if($result_read_blog)
@@ -49,10 +49,11 @@
             {
                 $id = $row['id'];
                 $cat_name = $row['cat_name'];
-                $title = $row['blog_title'];
+                $title = $row['blog_title']; 
                 $description = $row['blog_description'];
                 $date = $row['blog_date'];
                 $file = $row['blog_image'];
+                
 
                 ?>
 

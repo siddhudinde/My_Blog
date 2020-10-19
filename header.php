@@ -23,6 +23,7 @@ session_start();
   <!-- Custom styles for this template-->
   <link href="css/sb-admin-2.min.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet" />
+  
 
 </head>
 
@@ -65,8 +66,10 @@ session_start();
     <div class="bg-white py-2 collapse-inner rounded">
       <a class="collapse-item" href="create_blog.php">Create Blog</a>
       <a class="collapse-item" href="view_blog.php">View Blog</a>
-      <a class="collapse-item" href="sid_blog.php">Gamming blog</a>
-      <a class="collapse-item" href="food_blog.php">Food blog</a>
+      <a class="collapse-item" href="sid_blog.php">Gamming Bloggye</a>
+      <a class="collapse-item" href="food_blog.php">Food Bloggye</a>
+      <a class="collapse-item" href="photo_blog.php">Photoholic Bloggye</a>
+
 
     </div>
   </div>
