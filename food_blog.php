@@ -1,6 +1,6 @@
 <?php  include 'header.php';?>  
 
-<h1>Food Bloggye(Pizza Hurt)</h1>
+<h1>Food Bloggye(Pizza Hut)</h1>
 
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
